@@ -12,9 +12,9 @@ In this repo you will get all mern projects with cms
 
 "type": "module",
 "scripts": {
-    "dev": "nodemon backend/index.js",
-    "start": "node backend/index.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix backend"
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
 
 
@@ -44,7 +44,7 @@ npm install cookie-parser
 
 # for deploy you mern app configure some script in root package.json:
 
-"build": "npm install && npm install --prefix frontend && npm run build --prefix backend"
+"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
 
 
 
